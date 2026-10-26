@@ -1,4 +1,4 @@
-# Publishing Local_Intercom
+# Publishing Hermes Local Intercom
 
 Hermes supports standalone agent plugins used inside Desktop; a renderer plugin.js
 is only needed for custom Desktop UI. This package currently adds an agent tool
@@ -6,7 +6,7 @@ and a pre-LLM hook, with no additional service or listener.
 
 ## Official route
 
-1. Publish the reviewed candidate to H3xx1st/hermes-local-intercom with plugin.yaml, __init__.py, runtime sources,
+1. Publish the reviewed candidate to H3xx1st/Hermes-Local-Intercom with plugin.yaml, __init__.py, runtime sources,
    documentation, license and truthful compatibility metadata.
 2. Run `hermes plugins validate <plugin-directory> --install-deps` at the exact
    proposed commit. The local check without dependency installation currently passes;
@@ -23,7 +23,7 @@ Direct Git installation is also supported before catalog admission; see
 ## Publication review still needed
 
 - Owner/author H3xx1st and MIT have been explicitly selected. Standalone source
-  publication is authorized at H3xx1st/hermes-local-intercom, with compatibility
+  publication is authorized at H3xx1st/Hermes-Local-Intercom, with compatibility
   warnings visible. Catalog admission remains a separate step.
 - `requires_hermes` is >=0.22.2, the tested live gateway version. Keep the catalog
   compatibility floor aligned with the manifest.

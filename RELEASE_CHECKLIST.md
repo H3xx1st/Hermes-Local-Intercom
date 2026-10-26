@@ -1,6 +1,6 @@
-# Local_Intercom 0.4.0 publication candidate
+# Hermes Local Intercom 0.4.0 publication candidate
 
-Prepared for H3xx1st/hermes-local-intercom under MIT. The user authorized standalone
+Prepared for H3xx1st/Hermes-Local-Intercom under MIT. The user authorized standalone
 GitHub publication. [Hermes API request #145227](https://github.com/NousResearch/hermes-agent/issues/145227)
 has been submitted; catalog admission remains pending developer guidance and a
 separate reviewed catalog PR.

@@ -1,4 +1,4 @@
-# Local_Intercom 0.4
+# Hermes Local Intercom 0.4
 
 > **Experimental compatibility warning:** this version uses three internal Hermes
 > gateway-client functions: `discover_gateway_endpoint`, `attachable`, and
@@ -106,13 +106,13 @@ Only allowlisted files enter the archive; local scripts, receipts, prompts, iden
 databases, logs, caches and Git metadata are excluded. The approved author/repository
 credit and required upstream legal attribution are intentionally public.
 
-Repository: [H3xx1st/hermes-local-intercom](https://github.com/H3xx1st/hermes-local-intercom).
+Repository: [Hermes Local Intercom](https://github.com/H3xx1st/Hermes-Local-Intercom).
 License: [MIT](LICENSE); upstream attribution: [third-party notices](THIRD_PARTY_NOTICES.md).
 
 ## Install from GitHub
 
 ```sh
-hermes plugins install H3xx1st/hermes-local-intercom --enable
+hermes plugins install H3xx1st/Hermes-Local-Intercom --enable
 ```
 
 Read the compatibility warning above before enabling. For a reproducible install,

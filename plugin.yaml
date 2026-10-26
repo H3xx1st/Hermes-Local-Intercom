@@ -6,7 +6,7 @@ kind: standalone
 description: Native ordinary-chat discovery, coordination, helper creation and permitted archival. Uses the existing Hermes gateway; no added service, listener or child process.
 author: H3xx1st
 license: MIT
-homepage: https://github.com/H3xx1st/hermes-local-intercom
+homepage: https://github.com/H3xx1st/Hermes-Local-Intercom
 provides_tools:
   - Local_Intercom
 provides_hooks:

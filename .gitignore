@@ -1,0 +1,33 @@
+# Initial publication allowlist. Local diagnostics, chat receipts and machine-specific
+# deployment scripts are retained on disk but must be reviewed before sharing.
+/*
+!/.gitignore
+!/__init__.py
+!/v2.py
+!/native.py
+!/lifecycle.py
+!/coordination.py
+!/gateway_compat.py
+!/plugin.yaml
+!/README.md
+!/PUBLISHING.md
+!/CODEX-COMPARISON.md
+!/test_v2.py
+!/test_lifecycle.py
+!/test_coordination.py
+!/test_gateway_compat.py
+!/test_privacy_audit.py
+!/privacy_audit.py
+!/build_release.py
+!/LICENSE
+!/THIRD_PARTY_NOTICES.md
+!/UPSTREAM_API_REQUEST.md
+!/RELEASE_CHECKLIST.md
+!/.github/
+!/.github/**
+# Add new public sources explicitly above; never force-add local chat evidence.
+__pycache__/
+*.py[cod]
+*.sqlite*
+*.db*
+*.local.*

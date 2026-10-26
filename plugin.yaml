@@ -1,0 +1,13 @@
+name: Local_Intercom
+label: Local_Intercom
+version: 0.4.0
+requires_hermes: ">=0.22.2"
+kind: standalone
+description: Native ordinary-chat discovery, coordination, helper creation and permitted archival. Uses the existing Hermes gateway; no added service, listener or child process.
+author: H3xx1st
+license: MIT
+homepage: https://github.com/H3xx1st/hermes-local-intercom
+provides_tools:
+  - Local_Intercom
+provides_hooks:
+  - pre_llm_call
